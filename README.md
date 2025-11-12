@@ -10,7 +10,7 @@ LightNotes es un editor de texto ultraligero y de alto rendimiento para Windows.
 
 Hemos priorizado la velocidad y las utilidades clave para ofrecer una experiencia de escritura sin fricciones:
 
-* **Rendimiento Extremo:** Archivo ejecutable de menos de **500 KB** y carga instantánea.
+* **Rendimiento Extremo:** Archivo ejecutable de solo **33 KB** (¡más ligero que un meme!) y carga instantánea.
 * **Modo Oscuro:** Alterna fácilmente a un tema oscuro para reducir la fatiga visual durante la noche.
 * **Zoom Dinámico:** Ajusta el tamaño del texto entre **50% y 300%** utilizando atajos de teclado o `Ctrl + Rueda del ratón`.
 * **Estadísticas en Vivo:** Consulta al instante el conteo de Palabras, Líneas y Caracteres en la barra de estado.
@@ -22,9 +22,9 @@ Hemos priorizado la velocidad y las utilidades clave para ofrecer una experienci
 
 LightNotes es un ejecutable portátil. No requiere instalación.
 
-1.  Ve a la sección **[Releases](https://github.com/tu-usuario/LightNotes/releases)** o descarga directamente el archivo.
-2.  Descarga el ejecutable: **[lightnotes.exe](lightnotes.exe)**
-3.  Simplemente haz doble clic en `lightnotes.exe` para comenzar a usarlo. Puedes guardar el archivo en cualquier carpeta de tu sistema (ej. Escritorio, `C:\Program Files`, etc.).
+1.  Ve a la sección **[Releases](https://github.com/andresavalosgallegos-art/LightNotes/releases)** o descarga directamente el archivo.
+2.  Descarga el ejecutable: **[lightnotes.exe](lightnotes.exe)** (¡Solo 33 KB!)
+3.  Simplemente haz doble clic en `lightnotes.exe` para comenzar a usarlo.
 
 ## ⌨️ Atajos de Teclado Útiles
 
@@ -50,7 +50,7 @@ Este proyecto está construido con C++ y la API de Windows.
 ### Pasos de Compilación
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/tu-usuario/LightNotes.git](https://github.com/tu-usuario/LightNotes.git)
+    git clone [https://github.com/andresavalosgallegos-art/LightNotes.git](https://github.com/andresavalosgallegos-art/LightNotes.git)
     cd LightNotes
     ```
 2.  Compila el archivo fuente `lightnotes.cpp` utilizando tu compilador (ejemplo con g++):
@@ -67,4 +67,4 @@ Este proyecto está construido con C++ y la API de Windows.
 ---
 *(c) 2025 - Light as a feather!*
 
-**[Ir a la Landing Page (GitHub Pages)](https://tu-usuario.github.io/LightNotes/)**
+**[Ir a la Landing Page (GitHub Pages)](https://andresavalosgallegos-art.github.io/LightNotes/)**
