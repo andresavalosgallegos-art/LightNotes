@@ -54,7 +54,7 @@ Este proyecto está construido con C++ y la API de Windows.
     git clone [https://github.com/andresavalosgallegos-art/LightNotes.git](https://github.com/andresavalosgallegos-art/LightNotes.git)
     cd LightNotes
     ```
-2.  Compila el archivo fuente `lightnotes.cpp` utilizando tu compilador (ejemplo con g++):
+2.  Compila el archivo fuente `lightnotes.cpp` utilizando tu compilador:
     ```bash
     g++ lightnotes.cpp -o lightnotes.exe -mwindows -lcomctl32 -lcomdlg32 -lshlwapi
     ```
