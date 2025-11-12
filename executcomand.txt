@@ -1,0 +1,2 @@
+
+g++ lightnotes.cpp recursos.res -o LightNotes.exe -mwindows -lcomctl32 -lcomdlg32 -lshlwaLightNotespi -lgdi32 -lshell32 -O3 -s -ffunction-sections -fdata-sections -Wl,--gc-sections -Wl,--strip-all
