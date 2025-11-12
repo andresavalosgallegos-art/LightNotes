@@ -6,6 +6,7 @@
     <title>LightNotes - Ultra Fast & Light</title>
     <meta name="description" content="LightNotes es el bloc de notas más rápido y ligero para Windows, con modo oscuro y zoom dinámico. Creado por Andrés Santiago Ávalos Gallegos.">
     
+    <!-- Enlace al ícono de la pestaña del navegador -->
     <link rel="icon" href="lightnotes.png" type="image/png">
     
     <style>
@@ -69,8 +70,9 @@
         }
 
         .download-btn {
+            /* ¡Cambiamos el color para que destaque más como un instalador! */
             display: inline-block;
-            background-color: var(--primary-color);
+            background-color: #28a745; /* Verde para 'Instalar' */
             color: white;
             padding: 15px 30px;
             font-size: 1.2em;
@@ -78,12 +80,12 @@
             text-decoration: none;
             border-radius: 50px;
             transition: background-color 0.3s, transform 0.2s;
-            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
             margin-top: 20px;
         }
 
         .download-btn:hover {
-            background-color: #0056b3;
+            background-color: #1e7e34;
             transform: translateY(-2px);
         }
 
@@ -161,40 +163,44 @@
         <h1>LightNotes: Ultra Fast & Light ⚡</h1>
         <p class="tagline">El bloc de notas más rápido y ligero para Windows.</p>
         
-        <a href="lightnotes.exe" class="download-btn" download>
-            Descargar LightNotes 1.0 (EXE - 33 KB!)
+        <!-- ENLACE ACTUALIZADO AL INSTALADOR -->
+        <a href="lightnotes-installer.exe" class="download-btn" download>
+            Descargar Instalador (Recomendado)
         </a>
-        <p style="margin-top: 15px; font-size: 0.9em;">Compatible con Windows (32/64-bit)</p>
+        <p style="margin-top: 15px; font-size: 0.9em;">Instalador profesional para Windows 11/10 (con desinstalador, atajos y asociaciones)</p>
     </header>
 
     <div class="container">
 
+        <!-- Sección: Características -->
         <div class="section">
             <h2>✨ ¿Por qué LightNotes?</h2>
             <p>Hemos diseñado LightNotes para ser una alternativa moderna y minimalista al Notepad clásico, centrándonos en el rendimiento y las funciones que maximizan tu productividad.</p>
             
             <ul class="features-list">
-                <li><strong>Rendimiento Extremo:</strong> Abre y guarda documentos al instante. ¡Solo pesa **33 KB**!</li>
+                <li><strong>Rendimiento Extremo:</strong> Abre y guarda documentos al instante. ¡Solo pesa **33 KB** sin instalador!</li>
                 <li><strong>Modo Oscuro Dedicado:</strong> Trabaja de noche sin fatiga visual (opción en el menú Ver).</li>
                 <li><strong>Zoom Dinámico:</strong> Ajusta el tamaño del texto de 50% a 300% (¡soporte Ctrl + Rueda del ratón!).</li>
                 <li><strong>Estadísticas en Vivo:</strong> Conoce al instante el conteo de Palabras, Líneas y Caracteres.</li>
                 <li><strong>Soporte UTF-8/UTF-16:</strong> Maneja correctamente múltiples idiomas y codificaciones.</li>
-                <li><strong>Atajos de Teclado Completos:</strong> Incluye `Ctrl+N`, `Ctrl+S`, `F5 (Fecha/Hora)` y `F11 (Pantalla Completa)`.</li>
+                <li><strong>Instalador Profesional:</strong> Incluye desinstalador, accesos directos y asociación a `.txt`, `.c`, `.cpp`, etc.</li>
             </ul>
         </div>
 
+        <!-- Sección: Instalación -->
         <div class="section install-steps">
             <h2>🛠️ Cómo Instalar</h2>
-            <p>La instalación es rápida y directa. ¡No requiere permisos de administrador!</p>
+            <p>Descarga el instalador y disfruta de una integración completa con Windows.</p>
             <ol>
-                <li><strong>Descarga:</strong> Haz clic en el botón de descarga o en el siguiente enlace: 
-                    <a href="lightnotes.exe" download>Descargar lightnotes.exe (33 KB)</a>
+                <li><strong>Descarga:</strong> Haz clic en el botón verde o en el siguiente enlace: 
+                    <a href="lightnotes-installer.exe" download>Descargar lightnotes-installer.exe</a>
                 </li>
-                <li><strong>Ejecuta:</strong> Una vez finalizada la descarga, simplemente haz doble clic en el archivo <code>lightnotes.exe</code>.</li>
-                <li><strong>¡Listo!</strong> LightNotes se abrirá inmediatamente. Puedes mover el archivo <code>.exe</code> a la ubicación que desees (ej: Escritorio o carpeta de Programas).</li>
+                <li><strong>Ejecuta:</strong> Haz doble clic en el instalador y sigue los pasos para crear tus accesos directos.</li>
+                <li><strong>¡Listo!</strong> Ya puedes usar LightNotes para todos tus archivos de texto y código.</li>
             </ol>
         </div>
 
+        <!-- Sección: Creador -->
         <div class="section">
             <h2>👤 Acerca del Creador</h2>
             <p>Esta aplicación fue creada como un proyecto personal de alto rendimiento para Windows.</p>
