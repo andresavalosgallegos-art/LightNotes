@@ -1,0 +1,35 @@
+// Frase Original (Español Chileno/Latino)
+ES: ¡Cuidado, es EXTREMADAMENTE bueno!
+// Idiomas Europeos
+EN: Warning, it's EXTREMELY good!
+PT: Cuidado, é EXTREMAMENTE bom!
+FR: Attention, c'est EXTRÊMEMENT bon !
+DE: Achtung, es ist EXTREM gut!
+IT: Attenzione, è ESTREMAMENTE buono!
+NL: Opgelet, het is EXTREEM goed!
+SV: Varning, det är EXTREMT bra!
+NO: Advarsel, det er EKSTREMT bra!
+FI: Varoitus, se on ERITTÄIN hyvä!
+DA: Advarsel, det er EKSTREMT godt!
+PL: Uwaga, to jest EKSTREMALNIE dobre!
+CZ: Pozor, je to EXTRÉMNĚ dobré!
+HU: Figyelem, ez RENDKÍVÜL jó!
+RO: Atenție, este EXTREM de bun!
+Idiomas de Europa del Este y Eslavos
+RU: Осторожно, это ЧРЕЗВЫЧАЙНО хорошо!(Ostorozhno, eto CHREZVYCHAYNO khorosho!)
+UK: Обережно, це НАДЗВИЧАЙНО добре!(Obepezhno, tse NADZVYCHAYNO dobre!)
+TR: Dikkat, BU SON DERECE iyi!
+EL: Προσοχή, είναι ΕΞΑΙΡΕΤΙΚΑ καλό!(Prosochí, eínai EXAIRETIKÁ kaló!)
+// Idiomas Asiáticos
+ZH (Simplificado): 小心，这是极好的！(Xiǎoxīn, zhè shì jí hǎo de!)
+JA: 警告、これは非常に優れています！(Keikoku, kore wa hijō ni sugurete imasu!)
+KO: 경고, 이것은 매우 좋습니다!(Gyeonggo, igeos-eun maeu josseubnida!)
+AR: تحذير، إنه جيد للغاية! (Taḥdhīr, innahu jayyid jiddan!)
+HI: सावधान, यह अत्यंत ही अच्छा है! (Saavdhaan, yah atyant hee accha hai!)
+VI: Cảnh báo, nó CỰC KỲ tốt!TH: คำเตือน, มันดีมากเป็นพิเศษ! (Khamteūan, man dī māk pen phisēt!)
+MS: Amaran, ini SANGAT bagus!ID: Peringatan, ini SANGAT bagus!
+// Idiomas Africanos
+SW: Onyo, ni NZURI SANA! (Advertencia, ¡es MUY bueno!)
+AF: Waarskuwing, dit is UITERMATE goed!
+// Idioma HebreoHE: 
+אזהרה, זה טוב במיוחד! (Azharah, ze tov bimyuḥad!)
