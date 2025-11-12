@@ -56,7 +56,7 @@ Este proyecto está construido con C++ y la API de Windows.
     ```
 2.  Compila el archivo fuente `lightnotes.cpp` utilizando tu compilador:
     ```bash
-    g++ lightnotes.cpp -o lightnotes.exe -mwindows -lcomctl32 -lcomdlg32 -lshlwapi
+    g++ lightnotes.cpp -o LightNotes.exe -mwindows -lcomctl32 -lcomdlg32 -lshlwapi -lgdi32 -lshell32 -O3 -s -ffunction-sections -fdata-sections -Wl,--gc-sections -Wl,--strip-all
     ```
 
 ## 👤 Creador
