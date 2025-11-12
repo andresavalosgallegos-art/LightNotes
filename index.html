@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightNotes - Ultra Fast & Light</title>
+    <meta name="description" content="LightNotes es el bloc de notas más rápido y ligero para Windows, con modo oscuro y zoom dinámico. Creado por Andrés Santiago Ávalos Gallegos.">
+    
+    <link rel="icon" href="lightnotes.png" type="image/png">
+    
+    <style>
+        /* Estilos CSS modernos y limpios */
+        :root {
+            --primary-color: #007bff; /* Azul vibrante */
+            --secondary-color: #343a40; /* Gris oscuro para texto */
+            --background-color: #f8f9fa; /* Fondo muy claro */
+            --card-color: #ffffff; /* Fondo de tarjeta blanco */
+            --accent-color: #ffc107; /* Amarillo para el rayo/acento */
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--secondary-color);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* --- Header y Botón de Descarga --- */
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background-color: var(--card-color);
+            border-bottom: 3px solid var(--primary-color);
+        }
+        
+        header img {
+            width: 96px; /* Ajusta el tamaño del ícono */
+            height: 96px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.8em;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            color: var(--secondary-color);
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+            margin-top: 20px;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        /* --- Secciones de Contenido --- */
+        .section {
+            padding: 30px;
+            margin-top: 20px;
+            background-color: var(--card-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .features-list li {
+            background: var(--background-color);
+            padding: 15px;
+            border-left: 4px solid var(--accent-color);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .features-list strong {
+            color: var(--primary-color);
+        }
+
+        /* --- Instalación --- */
+        .install-steps ol {
+            padding-left: 20px;
+        }
+
+        .install-steps li {
+            margin-bottom: 15px;
+        }
+
+        /* --- Footer/Creador --- */
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        
+        footer a {
+            color: #495057;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Media Query para móviles */
+        @media (max-width: 768px) {
+            .features-list {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="lightnotes.png" alt="LightNotes Icono">
+        <h1>LightNotes: Ultra Fast & Light ⚡</h1>
+        <p class="tagline">El bloc de notas más rápido y ligero para Windows.</p>
+        
+        <a href="lightnotes.exe" class="download-btn" download>
+            Descargar LightNotes 1.0 (EXE - 33 KB!)
+        </a>
+        <p style="margin-top: 15px; font-size: 0.9em;">Compatible con Windows (32/64-bit)</p>
+    </header>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>✨ ¿Por qué LightNotes?</h2>
+            <p>Hemos diseñado LightNotes para ser una alternativa moderna y minimalista al Notepad clásico, centrándonos en el rendimiento y las funciones que maximizan tu productividad.</p>
+            
+            <ul class="features-list">
+                <li><strong>Rendimiento Extremo:</strong> Abre y guarda documentos al instante. ¡Solo pesa **33 KB**!</li>
+                <li><strong>Modo Oscuro Dedicado:</strong> Trabaja de noche sin fatiga visual (opción en el menú Ver).</li>
+                <li><strong>Zoom Dinámico:</strong> Ajusta el tamaño del texto de 50% a 300% (¡soporte Ctrl + Rueda del ratón!).</li>
+                <li><strong>Estadísticas en Vivo:</strong> Conoce al instante el conteo de Palabras, Líneas y Caracteres.</li>
+                <li><strong>Soporte UTF-8/UTF-16:</strong> Maneja correctamente múltiples idiomas y codificaciones.</li>
+                <li><strong>Atajos de Teclado Completos:</strong> Incluye `Ctrl+N`, `Ctrl+S`, `F5 (Fecha/Hora)` y `F11 (Pantalla Completa)`.</li>
+            </ul>
+        </div>
+
+        <div class="section install-steps">
+            <h2>🛠️ Cómo Instalar</h2>
+            <p>La instalación es rápida y directa. ¡No requiere permisos de administrador!</p>
+            <ol>
+                <li><strong>Descarga:</strong> Haz clic en el botón de descarga o en el siguiente enlace: 
+                    <a href="lightnotes.exe" download>Descargar lightnotes.exe (33 KB)</a>
+                </li>
+                <li><strong>Ejecuta:</strong> Una vez finalizada la descarga, simplemente haz doble clic en el archivo <code>lightnotes.exe</code>.</li>
+                <li><strong>¡Listo!</strong> LightNotes se abrirá inmediatamente. Puedes mover el archivo <code>.exe</code> a la ubicación que desees (ej: Escritorio o carpeta de Programas).</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>👤 Acerca del Creador</h2>
+            <p>Esta aplicación fue creada como un proyecto personal de alto rendimiento para Windows.</p>
+            <p><strong>Desarrollador:</strong> Andrés Santiago Ávalos Gallegos</p>
+            <p>(c) 2025 - Light as a feather!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>LightNotes v1.0 | Creado por Andrés Santiago Ávalos Gallegos</p>
+        <p>Visita el repositorio en GitHub: <a href="https://github.com/andresavalosgallegos-art/LightNotes" target="_blank">andresavalosgallegos-art/LightNotes</a></p>
+    </footer>
+
+</body>
+</html>
