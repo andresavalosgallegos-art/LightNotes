@@ -24,7 +24,7 @@ LightNotes es un ejecutable portátil. No requiere instalación.
 
 1.  Ve a la sección **[Releases](https://github.com/andresavalosgallegos-art/LightNotes/releases)** o descarga directamente el archivo.
 2.  Descarga el ejecutable: **[lightnotes.exe](lightnotes.exe)** (¡Solo 33 KB!)
-3.  O usa el instalador: **[lightnotes-installer.exe](lightnotes-installer.exe)** (¡Solo 33 KB!) 
+3.  O usa el instalador: **[lightnotes-installer.exe](lightnotes-installer.exe)** (¡Solo 1 MB!) 
 4.  Simplemente haz doble clic en `lightnotes.exe` o en el instalador `lightnotes-installer.exe` para comenzar a usarlo.
 
 ## ⌨️ Atajos de Teclado Útiles
