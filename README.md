@@ -58,6 +58,14 @@ Este proyecto está construido con C++ y la API de Windows.
     ```bash
     g++ lightnotes.cpp -o LightNotes.exe -mwindows -lcomctl32 -lcomdlg32 -lshlwapi -lgdi32 -lshell32 -O3 -s -ffunction-sections -fdata-sections -Wl,--gc-sections -Wl,--strip-all
     ```
+3.(opcional)Disminuye AUN mas el archivo ejecutable
+   ```bash
+   upx --best --ultra-brute lightnotes.exe
+   ```
+Y tambien puedes comprimir el instalador
+   ```bash
+   upx --best --ultra-brute lightnotes-installer.exe
+   ```
 
 ## 👤 Creador
 
