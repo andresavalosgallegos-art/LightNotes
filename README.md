@@ -20,7 +20,7 @@ Hemos priorizado la velocidad y las utilidades clave para ofrecer una experienci
 
 ## ⬇️ Descarga e Instalación
 
-LightNotes es un ejecutable portátil. No requiere instalación.
+LightNotes es un ejecutable portátil. No requiere instalación(Salvo en el caso de usar el instalador).
 
 1.  Ve a la sección **[Releases](https://github.com/andresavalosgallegos-art/LightNotes/releases)** o descarga directamente el archivo.
 2.  Descarga el ejecutable: **[lightnotes.exe](lightnotes.exe)** (¡Solo 33 KB!)
