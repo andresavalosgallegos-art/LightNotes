@@ -79,6 +79,10 @@ Si de casualidad al instalar dice que contiene un virus o puede ser dañino y lo
 
 ## Nota
 **1** Proximamente se intentara hacer que el navegador lo detecte como seguro
+
+
+
+
 **2** En los navegadores que se instale un .exe o cualquier ejecutable directamente el navegador puede bloquearlo por que muchos ejecutable(No todos) casi simpre contienen virus.
 
 ---
